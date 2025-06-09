@@ -6,13 +6,13 @@ The app is compatible with Android 7 (Nougat) and above.
 Features:
 - Add, update, delete contacts
 - View contact details
-- Save contacts locally using Room Database
+- Save contacts locally using SQLite (via SQLiteOpenHelper)
 - Search contacts by name
 
 Technologies:
 - Java
 - Android SDK
-- Room Persistence Library
+- SQLite (via SQLiteOpenHelper)
 
 Minimum SDK: 24
 Compile SDK: 35
@@ -35,13 +35,13 @@ Android 7 (Nougat) ve üzeri sürümlerle uyumludur.
 Özellikler:
 - Kişi ekleme, güncelleme ve silme
 - Kişi detaylarını görüntüleme
-- Verileri yerel olarak Room Database ile saklama
+- Verileri yerel olarak SQLite (SQLiteOpenHelper) ile saklama
 - İsimle kişi arama
 
 Kullanılan Teknolojiler:
 - Java
 - Android SDK
-- Room Persistence Library
+- SQLite (SQLiteOpenHelper)
 
 Minimum SDK: 24
 Compile SDK: 35
