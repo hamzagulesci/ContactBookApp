@@ -53,3 +53,6 @@ Target SDK: 35
 2. Projeyi Android Studio ile açın.
 3. Gradle senkronizasyonunu yapıp projeyi derleyin.
 4. Android 7 veya üzeri bir cihaz/emülatörde uygulamayı çalıştırın.
+
+Screenshot , Ekran Görüntüsü
+![App Screenshot](https://raw.githubusercontent.com/hamzagulesci/ContactBookApp/main/ContactBookApp.PNG)
