@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Name for EditText -->
+    <!-- Ad için EditText -->
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name / Ad"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Number for EditText -->
+    <!-- Telefon için EditText -->
+    <EditText
+        android:id="@+id/editTextTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number / Telefon"
+        android:inputType="phone"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Save Button -->
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/buttonKaydet"
+        android:text="Save / Kaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Listing Button -->
+    <!-- Listele Butonu -->
+    <Button
+        android:id="@+id/buttonListele"
+        android:text="List / Listele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TextView to show results -->
+    <!-- Sonuçları gösterecek TextView -->
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <!-- EditText for ID entry -->
+    <!-- ID girişi için EditText -->
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Update Button -->
+    <!-- Güncelle Butonu -->
+    <Button
+        android:id="@+id/buttonGuncelle"
+        android:text="Update / Güncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Delete Button -->
+    <!-- Sil Butonu -->
+    <Button
+        android:id="@+id/buttonSil"
+        android:text="Delete / Sil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+    <!-- github.com/hamzagulesci -->
