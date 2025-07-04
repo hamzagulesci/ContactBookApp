@@ -27,7 +27,7 @@ How to Run:
 
 ---
 
-Contact Book App - Android
+Telefon Rehberi - Android
 
 Bu proje, Android Studio kullanılarak Java diliyle geliştirilmiş basit bir rehber (kişiler) uygulamasıdır.
 Android 7 (Nougat) ve üzeri sürümlerle uyumludur.
